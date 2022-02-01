@@ -1,5 +1,40 @@
-@import '../node_modules/bootstrap/scss/variables.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 body {
-    background-color: whitesmoke;
+    background-color: white;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.loginbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vh;
+    height: 30vh;
+    background-color: white;
+    border: 0.1vh solid whitesmoke;
+    border-radius: 0.3vh;
+    box-shadow: 0 0 0.2vh black;
+}
+
+.logintitle {
+    margin-top: 2vh;
+    font-size: 4vh;
+}
+
+.logininput {
+    width: 75%;
+    height: 4vh
+}
+
+.loginbtn {
+    margin-top: 2vh;
+    width: 75%;
+    height: 4vh;
 }
